@@ -1,10 +1,10 @@
 <?php
 /*
 Plugin Name: JavaScript Spam Blocker
-Plugin URI: http://jesin.tk/prevent-wordpress-comment-spam-using-javascript/
+Plugin URI: http://websistent.com/prevent-wordpress-comment-spam-using-javascript/
 Description: Block comment spam bots with a single line of JavaScript
 Author: Jesin
-Author URI: http://jesin.tk
+Author URI: http://websistent.com
 */
 
 add_action( 'preprocess_comment' , 'preprocess_comment_handler' );
